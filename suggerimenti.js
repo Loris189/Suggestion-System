@@ -31,7 +31,7 @@ const nuovoembed = new Discord.MessageEmbed()
 .setThumbnail("https://images-ext-2.discordapp.net/external/hodlKmkDiZrUkiWHOCw-juEItcQ_vs1hTsO8-rhgqCo/https/cdn.discordapp.com/avatars/648959321668845569/3fc9b9cfe952182034c9d9f8ab85236a.webp")
 .setFooter(`BOT Sviluppato da loris189`, `https://images-ext-2.discordapp.net/external/hodlKmkDiZrUkiWHOCw-juEItcQ_vs1hTsO8-rhgqCo/https/cdn.discordapp.com/avatars/648959321668845569/3fc9b9cfe952182034c9d9f8ab85236a.webp`);
 
-if(interaction.channel.id == config.logchat.comandibot) {
+if(interaction.channel.id == "ID CHAT") {
 
     interaction.channel.send({embeds: [nuovoembed]}).then(sentMessage => {
         sentMessage.react("👍");  
